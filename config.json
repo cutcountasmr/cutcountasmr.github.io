@@ -32,6 +32,8 @@
     "coinPerAd": 400,
     "freeCoins": 150,
     "freeCoinsDay": 5,
-    "starterAfter": 6
+    "starterAfter": 6,
+    "studioTrialMs": 300000,
+    "studioTrialsDay": 3
   }
 }
