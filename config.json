@@ -1,5 +1,5 @@
 {
-  "_comment": "Remote tuning of CutCount. Host this file publicly (python tools/build.py --site puts it in dist/site/config.json: https://cutcountasmr.github.io/config.json), put its address in src/ids.js CONFIG_URL, then edit the numbers here: players get them at their next launch, no app update. Keys and defaults: TUNE in src/meta.js (MONETISATION.md section 9). Unknown keys or wrong types are ignored.",
+  "_comment": "Remote tuning of CutCount. Host this file publicly (python tools/build.py --site puts it in dist/site/config.json: https://cutcountasmr.github.io/config.json), put its address in src/ids.js CONFIG_URL, then edit the numbers here: players get them at their next launch, no app update. Keys and defaults: TUNE in src/meta.js (MONETISATION.md section 9). Unknown keys or wrong types are ignored. piecesPc / piecesPhone / piecesMobile: the most pieces a fruit is cut into on a PC, a strong phone, another phone (0: the build's own, 14,000 / 7,000 / 1,000; at most 16,000).",
   "tune": {
     "tough0": 6,
     "toughEvery": 2,
@@ -19,9 +19,16 @@
     "feverAt": 5,
     "feverS": 5,
     "multMax": 5,
+    "bladesMax": 5,
+    "bladesPlus": 1,
+    "feverBlades": 7,
+    "bladeGap": 0.18,
     "bossEvery": 10,
     "bossTough": 4,
     "bossSpin": 1.6,
+    "piecesPc": 0,
+    "piecesPhone": 0,
+    "piecesMobile": 0,
     "adFirstRounds": 5,
     "adRounds": 3,
     "adGapMs": 90000,
