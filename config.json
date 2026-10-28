@@ -22,6 +22,7 @@
     "spin0": 10,
     "spinUp": 5,
     "spinMax": 30,
+    "spinLap": 14,
     "feverAt": 5,
     "feverS": 5,
     "multMax": 5,
